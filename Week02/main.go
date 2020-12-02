@@ -48,6 +48,5 @@ func GetNameById(id uint64) (UserName string, err error) {
 		return "default",errors.Wrap(err, "get db error")
 
 	}
-
 	return UserName, nil
 }
